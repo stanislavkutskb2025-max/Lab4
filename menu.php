@@ -1,6 +1,3 @@
-<html>
-<meta charset="utf-8">
-<head>
 <style>
 ul {
     list-style-type: none;
@@ -47,8 +44,7 @@ li.dropdown {
     display: block;
 }
 </style>
-</head>
-<body>
+
 <ul>
     <li><a href="index.php">Головна</a></li>
     <li class="dropdown">
@@ -61,5 +57,3 @@ li.dropdown {
         </div>
     </li>
 </ul>
-</body>
-</html>
