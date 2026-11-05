@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8">
+    <title>Додати нового пацієнта</title>
+</head>
+<body>
+    <h2>Додати нового пацієнта</h2>
+    <form action="form1.php" method="post">
+        <b>П.І.Б. пацієнта (*):</b><br>
+        <input type="text" name="full_name" size="40" required><br><br>
+
+        <b>Дата народження (*):</b><br>
+        <input type="date" name="birth_date" required><br><br>
+
+        <b>Стать:</b><br>
+        <select name="gender">
+            <option value="Чоловіча">Чоловіча</option>
+            <option value="Жіноча">Жіноча</option>
+        </select><br><br>
+
+        <b>Адреса:</b><br>
+        <input type="text" name="address" size="40"><br><br>
+
+        <b>Номер телефону:</b><br>
+        <input type="text" name="phone" size="20"><br><br>
+
+        <b>Паспортні дані:</b><br>
+        <input type="text" name="passport_data" size="30"><br><br>
+
+        <b>Пільгова категорія:</b><br>
+        <input type="text" name="privilege_category" size="30"><br><br>
+
+        <b>Контактна особа:</b><br>
+        <input type="text" name="contact_person" size="40"><br><br>
+
+        <input type="submit" value="Зареєструвати пацієнта">
+    </form>
+</body>
+</html>
+
